@@ -1,18 +1,10 @@
-from flask import Flask, render_template, url_for, redirect
+from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/index')
 def index():
-    return 'Hello World! <h1>Hello!!</h1>'
-
-@app.route('/<name>')
-def user(name):
-    return f"Hello {name.title()}!"
-
-@app.route("/admin")
-def admin():
-    return redirect(url_for("home"))
+    return '<h1> Index Page </h1>'
 
 if __name__ == "__main__":
     app.run(debug=True)
