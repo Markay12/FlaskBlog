@@ -9,7 +9,7 @@ First Flask Project and Deployment
 4. [About Me](https://github.com/Markay12/FlaskInit#about-me)
 
 ## *Flask*
-What is Flask? \
+What is Flask?
 - Flask is a framework that allows the user to take backend work and place it online into a front-end setup
 - Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions
 
@@ -20,6 +20,6 @@ Learn how to use flask and implement personal code into a new front-end environm
 
 ### Version 0.0.1
 ---
-**August 06 2020**
+06 August 2020
 
 ## *About Me*
