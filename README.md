@@ -16,10 +16,14 @@ What is Flask?
 ## *Objective*
 Learn how to use flask and implement personal code into a new front-end environment
 
-## *Versions*
+# *Versions*
 
-### Version 0.0.1
+## Version 0.0.1
 ---
 - Init page with about route 
+
+### Version 0.0.2
+---
+- Added basic addition of blog posts and tracking of posts
 
 ## *About Me*
