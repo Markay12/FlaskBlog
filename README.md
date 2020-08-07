@@ -27,3 +27,5 @@ Learn how to use flask and implement personal code into a new front-end environm
 - Added basic addition of blog posts and tracking of posts
 
 ## *About Me*
+
+My name is Mark Ashinhust and I am a Computer Systems Engineer at Arizona State University. I am in my second year and I am trying to expand what I know and be able to implement some of my backend code into this new frontend environment. This is a first from me and after following some guides I hope to be able to complete a project of this sort on my own.
