@@ -20,3 +20,5 @@ Learn how to use flask and implement personal code into a new front-end environm
 
 ### Version 0.0.1
 **August 06 2020**
+
+## *About Me*
