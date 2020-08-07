@@ -20,6 +20,6 @@ Learn how to use flask and implement personal code into a new front-end environm
 
 ### Version 0.0.1
 ---
-06 August 2020
+- Init page with about route 
 
 ## *About Me*
