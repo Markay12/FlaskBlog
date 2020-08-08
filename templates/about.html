@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <!--An jinja if-else statement to show the user what webpage they are on and its title-->
+    {% if title %}
+        <title>Mark's Blog - {{ title }}</title>
+    {% else %}
+        <title>Mark's Blog</title>
+    {% endif %}
 </head>
 <body>
     <h1>This is my About Me Page!</h1>
