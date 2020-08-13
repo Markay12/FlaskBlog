@@ -1,6 +1,11 @@
 from flask import Flask, render_template, url_for
+#import forms
+from forms import RegistrationForm, LoginForm
 # __name__ == special module in python
 app = Flask(__name__)
+
+#secret key
+app.config['SECRET_KEY'] = '78c8a537a0e2c41c76ce6b48947b0cce'
 
 # post library that allows us to keep track of user information and posts
 # used in home.html to post and understand the template and output
@@ -40,6 +45,16 @@ def home():
 @app.route('/about')
 def about():
     return render_template('about.html', title='About')
+
+@app.route('/register')
+def register():
+    form = RegistrationForm()  #create instance of registration form from template
+    return render_template('register.html', title='Register', form=form)
+
+@app.route('/login')
+def login():
+    form = LoginForm()  #create instance of login form from template
+    return render_template('login.html', title='Login', form=form)
 
 if __name__ == '__main__':
     app.run(debug=True)
