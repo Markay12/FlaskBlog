@@ -9,12 +9,12 @@ from wtforms.validators import DataRequired, Length, Email, EqualTo #to check va
 class RegistrationForm(FlaskForm):
     #form fields (what information do we want to store)
     #create some restrictions for usernames with use of validators
-    username = StringField('Username --> ', validators=[DataRequired(min=2, max=20)]) #ask for some username
+    username = StringField('Username --> ', validators=[DataRequired(), Length(min=2, max=20)]) #ask for some username
     #min length = 2 and max = 20
     email = StringField('Email --> ', validators=[DataRequired(), Email()])
 
     password = PasswordField('Password --> ', validators=[DataRequired()])
-    confirm_password = PasswordField('Confirm Password --> ', validators=[DataRequired(), EqualTo()])
+    confirm_password = PasswordField('Confirm Password --> ', validators=[DataRequired(), EqualTo('password')])
 
     submit = SubmitField('Sign Up!')
 
