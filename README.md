@@ -34,7 +34,16 @@ Learn how to use flask and implement personal code into a new front-end environm
 ### Version 0.0.4
 - Update to UI showing the initial setup of the website. Shows first blog posts and adds some navigation between panes
 - Updated titles for the webpages and further title information
-- Inherit formatting between html files  
+- Inherit formatting between html files
+
+## Version 0.1.0
+- forms have been updated to take in information from users and store in a database for certain login information
+- applied new forms into html files for webpages that display the login and registration forms for each user
+- buttons and text-fields included with validation, username must be between 2 to 20 characters long as well as email validation
+- checks and confirms passwords match
+---
+TODO
+1. Login verification
 
 ## *About Me*
 
