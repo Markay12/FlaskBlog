@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# FlaskInit
+First Flask Project and Deployment
 
-You can use the [editor on GitHub](https://github.com/Markay12/Python_Flask/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## **Table of Contents**
+1. [Flask?](https://github.com/Markay12/FlaskInit#flask)
+2. [Objective](https://github.com/Markay12/FlaskInit#objective)
+3. [Versions](https://github.com/Markay12/FlaskInit#versions)
+4. [About Me](https://github.com/Markay12/FlaskInit#about-me)
 
-### Markdown
+## *Flask*
+What is Flask?
+- Flask is a framework that allows the user to take backend work and place it online into a front-end setup
+- Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## *Objective*
+Learn how to use flask and implement personal code into a new front-end environment
 
-```markdown
-Syntax highlighted code block
+# *Versions*
 
-# Header 1
-## Header 2
-### Header 3
+## Version 0.0.1
+---
+- Init page with about route 
 
-- Bulleted
-- List
+### Version 0.0.2
+---
+- Added basic addition of blog posts and tracking of posts
 
-1. Numbered
-2. List
+### Version 0.0.3
+---
+- Added jinja syntax and inheritance between html files
+- created layout.html template, parent template for inheritance in each html code(uses {% block content %})
 
-**Bold** and _Italic_ and `Code` text
+### Version 0.0.4
+- Update to UI showing the initial setup of the website. Shows first blog posts and adds some navigation between panes
+- Updated titles for the webpages and further title information
+- Inherit formatting between html files
 
-[Link](url) and ![Image](src)
-```
+## Version 0.1.0
+- forms have been updated to take in information from users and store in a database for certain login information
+- applied new forms into html files for webpages that display the login and registration forms for each user
+- buttons and text-fields included with validation, username must be between 2 to 20 characters long as well as email validation
+- checks and confirms passwords match
+---
+TODO
+1. Login verification
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Version 0.1.1
+- form validation included with confirmation at top of webpage
+- redirect to homepage after completion of registration
+- flashes message to the user that form has been validated correctly
 
-### Jekyll Themes
+## *About Me*
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Markay12/Python_Flask/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+My name is Mark Ashinhust and I am a Computer Systems Engineer at Arizona State University. I am in my second year and I am trying to expand what I know and be able to implement some of my backend code into this new frontend environment. This is a first from me and after following some guides I hope to be able to complete a project of this sort on my own.
