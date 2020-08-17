@@ -2,7 +2,7 @@
 First Flask Project and Deployment
 
 
-# **Table of Contents**
+## **Table of Contents**
 1. [Flask?](https://github.com/Markay12/FlaskInit#flask)
 2. [Objective](https://github.com/Markay12/FlaskInit#objective)
 3. [Versions](https://github.com/Markay12/FlaskInit#versions)
@@ -44,6 +44,11 @@ Learn how to use flask and implement personal code into a new front-end environm
 ---
 TODO
 1. Login verification
+
+## Version 0.1.1
+- form validation included with confirmation at top of webpage
+- redirect to homepage after completion of registration
+- flashes message to the user that form has been validated correctly
 
 ## *About Me*
 
