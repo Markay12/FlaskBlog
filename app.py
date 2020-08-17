@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, flash, redirect
 #import forms
 from forms import RegistrationForm, LoginForm
 # __name__ == special module in python
@@ -46,9 +46,16 @@ def home():
 def about():
     return render_template('about.html', title='About')
 
-@app.route('/register')
+#methods allowed to accept, to be able to submit personal information
+@app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegistrationForm()  #create instance of registration form from template
+    #validate the form to see if the information provided can create an account
+    if form.validate_on_submit():
+        #flash a one time message to show if a message can be created
+        flash(f'Account Created for { form.username.data }!', 'success')
+        #redirect user back to home page when the user successfully creates an account
+        return redirect(url_for('home'))
     return render_template('register.html', title='Register', form=form)
 
 @app.route('/login')
