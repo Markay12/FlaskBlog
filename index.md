@@ -29,7 +29,7 @@ Learn how to use flask and implement personal code into a new front-end environm
 ### Version 0.0.3
 ---
 - Added jinja syntax and inheritance between html files
-- created layout.html template, parent template for inheritance in each html code(uses {% block content %})
+- created layout.html template, parent template for inheritance in each html code(uses {{% block content %}})
 
 ### Version 0.0.4
 - Update to UI showing the initial setup of the website. Shows first blog posts and adds some navigation between panes
