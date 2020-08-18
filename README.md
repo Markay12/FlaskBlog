@@ -10,7 +10,6 @@ First Flask Project and Deployment
 
 ## *Flask*
 What is Flask?
-- Flask is a framework that allows the user to take backend work and place it online into a front-end setup
 - Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions
 
 ## *Objective*
