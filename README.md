@@ -41,8 +41,7 @@ Learn how to use flask and implement personal code into a new front-end environm
 - applied new forms into html files for webpages that display the login and registration forms for each user
 - buttons and text-fields included with validation, username must be between 2 to 20 characters long as well as email validation
 - checks and confirms passwords match
----
-TODO
+**TODO**
 1. Login verification
 
 ## Version 0.1.1
